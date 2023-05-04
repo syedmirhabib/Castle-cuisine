@@ -1,6 +1,6 @@
 # Castle Cuisine
 
-Castle Cuisine is a website for food lovers who want to explore new and delicious recipes. You can visit the live site at https://castle-cuisine.com.
+Castle Cuisine is a website for food lovers who want to explore new and delicious recipes. You can visit the live site at https://castle-cuisine.web.app/
 
 ## Features
 
