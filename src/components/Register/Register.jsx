@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import './Register.css';
-import RegisterImage from '../../assets/images/register.jpg';
+import RegisterImage from '../../assets/images/register.png';
 import { AuthContext } from '../../provider/AuthProvider';
 import { useNavigate } from 'react-router-dom';
 
