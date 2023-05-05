@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import './Register.css';
-import RegisterImage from '../../assets/images/register.png';
+import RegisterImage from '../../assets/images/register.jpg';
 import { AuthContext } from '../../provider/AuthProvider';
 import { useNavigate } from 'react-router-dom';
 
@@ -8,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 const Register = () => {
     const { createUser, userUpdate } = useContext(AuthContext)
     const [error, setError] = useState(null)
-    const [urlerror, setUrlError] = useState(null)
     const [regerror, setRegError] = useState(null)
 
     const navigate = useNavigate()
@@ -45,16 +44,6 @@ const Register = () => {
             setError('')
         }
 
-        // Photo URL validation;
-        // For Testing Correct URL Format: https://i.pinimg.com/736x/18/3c/e3/183ce3b7d49330b01544f3152d2298bd.jpg
-        if (!/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/.test(photoURL)) {
-            const errorMessage = "Url is not in the correct format..!"
-            setUrlError(errorMessage);
-            return
-        }
-        else {
-            setUrlError('')
-        }
 
         // createUser(email,password)
         createUser(email, password)
@@ -96,7 +85,6 @@ const Register = () => {
                     <div className="mb-3">
                         <label for="exampleInputEmail1" className="form-label">Photo URL</label>
                         <input type="text" name='photoURL' className="form-control" required />
-                        {urlerror ? <p className='text-danger mt-2'>{urlerror}</p> : ''}
                     </div>
                     <button type="submit" className="btn btn-success">Register</button>
                 </form>
