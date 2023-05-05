@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import LoginImage from '../../assets/images/login.png';
+import LoginImage from '../../assets/images/login.jpg';
 import './Login.css';
 import Google from '../../assets/icons/google.png';
 import Github from '../../assets/icons/github.png';
