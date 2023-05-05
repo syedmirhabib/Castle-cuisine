@@ -48,7 +48,7 @@ const HomeHeader = () => {
                 <img src="images/profile.png" className="img-fluid" alt="" />
               </div>
               <div className="carosoul-heading display-3 fw-bold">
-                Explore Our Chef with Quality
+              Discover the expertise of our chef through the quality of our cuisine.
               </div>
               <div className="carosoul-description">
               Embark on a culinary adventure unlike any other with our top-notch gastronomy. Our skilled culinary artists merge the most pristine components and pioneering methodologies to fashion delectable dishes that will enchant your palate
