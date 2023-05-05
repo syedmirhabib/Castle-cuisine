@@ -35,13 +35,10 @@ const HomeHeader = () => {
               </div>
               <div className="carosoul-heading display-3 fw-bold">
                 {" "}
-                Welcome to Castle Cuisine
+                Greetings and salutations to Castle's Culinary Haven
               </div>
               <div className="carosoul-description">
-                Experience a gastronomic journey like no other with our
-                world-class cuisine. Our expert chefs combine the freshest
-                ingredients and innovative techniques to create dishes that will
-                tantalize your taste buds.{" "}
+              Embark on a culinary adventure unlike any other with our top-notch gastronomy. Our skilled culinary artists merge the most pristine components and pioneering methodologies to fashion delectable dishes that will enchant your palate{" "}
               </div>
             </div>
           </div>
@@ -54,10 +51,7 @@ const HomeHeader = () => {
                 Explore Our Chef with Quality
               </div>
               <div className="carosoul-description">
-                Experience a gastronomic journey like no other with our
-                world-class cuisine. Our expert chefs combine the freshest
-                ingredients and innovative techniques to create dishes that will
-                tantalize your taste buds.
+              Embark on a culinary adventure unlike any other with our top-notch gastronomy. Our skilled culinary artists merge the most pristine components and pioneering methodologies to fashion delectable dishes that will enchant your palate
               </div>
             </div>
           </div>
@@ -67,13 +61,10 @@ const HomeHeader = () => {
                 <img src="images/profile.png" className="img-fluid" alt="" />
               </div>
               <div className="carosoul-heading display-3 fw-bold">
-                Discover our Exquisite Menu
+              Unearth the Delights of Our Fine Menu
               </div>
               <div className="carosoul-description">
-                Experience a gastronomic journey like no other with our
-                world-class cuisine. Our expert chefs combine the freshest
-                ingredients and innovative techniques to create dishes that will
-                tantalize your taste buds.
+              Embark on a culinary adventure unlike any other with our top-notch gastronomy. Our skilled culinary artists merge the most pristine components and pioneering methodologies to fashion delectable dishes that will enchant your palate
               </div>
             </div>
           </div>
