@@ -1,32 +1,31 @@
 /* Styling the Links color in the Header Page */
-a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 1s;
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 1s;
 }
-a:hover{
-    color:#ef5b0c;
-;
+a:hover {
+  color: #ef5b0c;
 }
 
 /* Navbar background */
-.navbar-bg{
-    background-color: aliceblue;
-    padding: 10px 0px;
+.navbar-bg {
+  background-color: aliceblue;
+  padding: 10px 0px;
 }
-.brand{
-    font-size: 24px;
-    font-weight: bold;
-    color: #ef5b0c;
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ef5b0c;
 }
-.navbar-toggler{
-    border: 1px solid aliceblue;
-    transition: all 1s;
+.navbar-toggler {
+  border: 1px solid aliceblue;
+  transition: all 1s;
 }
-.navbar-toggler:hover{
-    border: 1px solid rgb(4, 122, 4);
+.navbar-toggler:hover {
+  border: 1px solid rgb(4, 122, 4);
 }
-.navbar-toggler:focus{
-    box-shadow: none;
+.navbar-toggler:focus {
+  box-shadow: none;
 }

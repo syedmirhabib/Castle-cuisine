@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "castle-cuisine",
   storageBucket: "castle-cuisine.appspot.com",
   messagingSenderId: "758387652957",
-  appId: "1:758387652957:web:4455ebfb046d39f10010b4"
+  appId: "1:758387652957:web:4455ebfb046d39f10010b4",
 };
 
 // Initialize Firebase

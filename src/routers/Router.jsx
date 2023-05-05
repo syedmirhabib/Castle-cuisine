@@ -11,47 +11,58 @@ import UserProfile from "../components/UserProfile/UserProfile";
 import PrivateRoute from "../privateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
         path: "/",
-        element: <Main />,
-        children: [
-            {
-                path: "/",
-                element: <Home />,
-                loader: () => fetch('https://chefs-palette-server.vercel.app/chefs/all')
-            },
-            {
-                path: "/blog",
-                element: <Blog />
-            },
-            {
-                path: "/user",
-                element: <User />
-            },
-            {
-                path: "/login",
-                element: <Login />
-            },
-            {
-                path: "/profile",
-                element: <PrivateRoute><UserProfile /></PrivateRoute>
-            },
-            {
-                path: "/register",
-                element: <Register />
-            },
-            {
-                path: "/chefrecipe/:id",
-                element: <PrivateRoute><ChefRecipe /></PrivateRoute>,
-                loader: ({ params }) => fetch(`https://chefs-palette-server.vercel.app/chefs/chef/${params.id}`)
-
-            },
-            {
-                path: "*",
-                element: <Error />
-            }
-        ]
-    },
+        element: <Home />,
+        loader: () =>
+          fetch("https://chefs-palette-server.vercel.app/chefs/all"),
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/user",
+        element: <User />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/profile",
+        element: (
+          <PrivateRoute>
+            <UserProfile />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/register",
+        element: <Register />,
+      },
+      {
+        path: "/chefrecipe/:id",
+        element: (
+          <PrivateRoute>
+            <ChefRecipe />
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(
+            `https://chefs-palette-server.vercel.app/chefs/chef/${params.id}`
+          ),
+      },
+      {
+        path: "*",
+        element: <Error />,
+      },
+    ],
+  },
 ]);
 
 export default router;
