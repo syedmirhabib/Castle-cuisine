@@ -3,27 +3,36 @@ import React from 'react';
 
 const styles = StyleSheet.create({
   page: {
-    backgroundColor: '#ef5b0c',
+    backgroundColor: '#438db8',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    margin: 40,
+    borderWidth: 1,
+    borderColor: '#ffffff',
   },
   title: {
-    fontSize: 20,
+    fontSize: 32,
     fontWeight: 'bold',
-    marginBottom: 20,
+    marginBottom: 40,
+    color: '#ffffff',
+    textAlign: 'center',
   },
   subtitle: {
-    fontSize: 16,
-    marginBottom: 10,
+    fontSize: 18,
+    marginBottom: 20,
+    color: '#ffffff',
+    textAlign: 'center',
   },
   content: {
-    fontSize: 12,
+    fontSize: 14,
     lineHeight: 1.5,
     textAlign: 'justify',
     margin: 20,
+    color: '#ffffff',
   },
 });
+
 
 const PdfFile = () => {
   return (
