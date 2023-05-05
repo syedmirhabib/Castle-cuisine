@@ -19,7 +19,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         loader: () =>
-          fetch("https://chefs-palette-server.vercel.app/chefs/all"),
+          fetch("https://castle-cuisine-server-syedmirhabib.vercel.app/chefs/all"),
       },
       {
         path: "/blog",
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://chefs-palette-server.vercel.app/chefs/chef/${params.id}`
+            `https://castle-cuisine-server-syedmirhabib.vercel.app/chefs/chef${params.id}`
           ),
       },
       {
