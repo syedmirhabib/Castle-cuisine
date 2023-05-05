@@ -2,6 +2,7 @@ import React from 'react';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import PdfFile from './PdfFile';
 
+
 const Blogs = () => {
 return (
 <div className='container px-5 md:px-36'>
