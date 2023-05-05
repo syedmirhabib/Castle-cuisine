@@ -1,12 +1,13 @@
 /* Styling the Links color in the Header Page */
 a{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     transition: all 1s;
 }
 a:hover{
-    color: black;
+    color:#ef5b0c;
+;
 }
 
 /* Navbar background */
@@ -17,7 +18,7 @@ a:hover{
 .brand{
     font-size: 24px;
     font-weight: bold;
-    color: rgb(4, 122, 4);
+    color: #ef5b0c;
 }
 .navbar-toggler{
     border: 1px solid aliceblue;

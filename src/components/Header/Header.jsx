@@ -51,7 +51,7 @@ const Header = () => {
                                 :
                                 <>
                                     <Nav>
-                                        <Button className='btn btn-warning'><Link to="/login">Login</Link></Button>
+                                        <Button className='btn btn-outline-success'><Link to="/login">Login</Link></Button>
                                     </Nav>
                                 </>
                         }
